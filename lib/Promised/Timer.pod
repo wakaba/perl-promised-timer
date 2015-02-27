@@ -1,0 +1,46 @@
+=head1 NAME
+
+Promised::Timer - Timer promise
+
+=head1 SYNOPSIS
+
+  use Promised::Timer;
+  
+  Promised::Timer->timeout (3)->then (sub {
+    warn "3s elapsed";
+  });
+
+=head1 DESCRIPTION
+
+The C<Promised::Timer> module defines a timer promise function.
+
+=head1 METHOD
+
+There is the following method:
+
+=over 4
+
+=item $promise = Promised::Timer->timeout ($time)
+
+Return a L<Promise> object, which is resolved with C<undef> after at
+least the specified number of seconds have passed.
+
+=back
+
+=head1 DEPENDENCY
+
+The module requires L<Promise>
+<https://github.com/wakaba/perl-promise> and L<AnyEvent>.
+
+=head1 AUTHOR
+
+Wakaba <wakaba@suikawiki.org>.
+
+=head1 LICENSE
+
+Copyright 2015 Wakaba <wakaba@suikawiki.org>.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=cut
