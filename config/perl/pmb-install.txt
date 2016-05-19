@@ -3,6 +3,6 @@ AnyEvent~7.12
 Term::ANSIColor~4.05
 Time::HiRes~1.9733
 Carp~1.38
-Test::More~1.302015
+Test::More~1.302019
 Filter::Util::Call~1.55
 Path::Tiny~0.090
