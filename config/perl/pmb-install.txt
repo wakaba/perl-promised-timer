@@ -5,4 +5,4 @@ Time::HiRes~1.9733
 Carp~1.38
 Test::More~1.302019
 Filter::Util::Call~1.55
-Path::Tiny~0.090
+Path::Tiny~0.094
